@@ -1,0 +1,11 @@
+# ignore notebook checkpoints
+*.ipynb_checkpoints
+
+# ignore files created by vs code
+*.vscode
+
+# ignore files created by mac
+*.DS_Store
+
+# ignore automatically created .pyc files
+*.pyc

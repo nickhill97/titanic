@@ -1,6 +1,6 @@
 # Titanic
 
-In this project I attempted the titanic competition on kaggle.com and the data was collected from the kaggle website in csv form. 
+In this project I attempted the titanic competition on kaggle.com and the data was collected from the kaggle website in csv form. The final model had an accuracy of 0.78947 on the test set.
 
 The data was already split into a training and test set, where the test set did not disclose the target variable. The data had 11 predictor variables. The goal of the competition is to produce the best model to predict whether a passenger on the titanic survives or dies. I split my work into four notebooks: 
 
@@ -12,6 +12,11 @@ The data was already split into a training and test set, where the test set did 
 ## EDA
 
 In this section I identified columns with missing values, analysed the distributions of the different columns and created visualisations for each column and the relationship with the target variable. During this time I attempted to understand the data and to brainstorm possible options for feature engineering and how best to represent the data for a machine learning model to use the data.
+
+![](images/survival_rate.png)
+![](images/age_distribution.png)
+![](images/survival_by_sex.png)
+![](images/survival_by_pclass.png)
 
 ## Cleaning
 

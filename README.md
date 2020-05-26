@@ -11,9 +11,8 @@ The data was already split into a training and test set, where the test set did 
 
 ## EDA
 
-In this section I identified columns with missing values, analysed the distributions of the different columns and created visualisations for each column and the relationship with the target variable. During this time I attempted to understand the data and to brainstorm possible options for feature engineering and how best to represent the data for a machine learning model to use the data.
+In this section I identified columns with missing values, analysed the distributions of the different columns and created visualisations for each column and the relationship with the target variable. During this time, I attempted to understand the data and to brainstorm possible options for feature engineering and how best to represent the data for a machine learning model to use the data. Some of the interesting visualisations I produced:
 
-![](images/survival_rate.png)
 ![](images/age_distribution.png)
 ![](images/survival_by_sex.png)
 ![](images/survival_by_pclass.png)

@@ -48,7 +48,6 @@ The models I trained were:
 - Decision tree
 - Random forest
 - SVM
-- Naive bayes
 - K nearest neighbours
 
 I evaluated each model using  10 fold cross validation and the accuracy and chose the SVC as the model with the highest mean accuracy and a low standard deviation of accuracy. I then used a grid search method to tune the parameters in the model, finding that a rgb kernel perfomed the best.
